@@ -46,7 +46,7 @@ nav {
 
 .section-image {
   position: relative;
-  background-image: url(/bakery/img/background_image.jpg);
+  background-image: url(/jhrwrgweg/img/background_image.jpg);
   height: 640px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -154,6 +154,7 @@ img{
 img:hover{
   transform: scale(120%);
 }
+
 
 
 
