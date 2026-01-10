@@ -1,0 +1,21 @@
+@media (max-width: 1070px) {
+  .section-description__icon-box {
+    height: 22rem;
+  }
+}
+.section-deckription__title {
+  font-size: 8rem;
+}
+
+@media (max-width: 1070px) {
+  .section-deckription__title {
+    font-size: 6rem;
+  }
+  .section-image__block {
+    display: none;
+  }
+  .block-adaptive{
+    display: block;
+    
+  }
+}
