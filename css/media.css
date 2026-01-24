@@ -4,22 +4,41 @@
   }
 
   .section-description__title {
-  font-size: 8rem;
+    font-size: 8rem;
+  }
 }
-}
-
 
 @media (max-width: 860px) {
+  .section-description__icon-box {
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 4.5rem;
+  }
+
   .section-description__title {
     font-size: 6rem;
   }
   .section-image__block {
     display: none;
   }
-  .block-adaptive{
+  .block-adaptive {
     display: block;
   }
   .section-description__icon-box {
     height: 18rem;
+  }
+}
+
+@media (max-width: 620px) {
+  ul {
+    gap: 0;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 390px) {
+  html {
+    font-size: 8px;
   }
 }
