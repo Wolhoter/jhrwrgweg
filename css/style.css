@@ -81,7 +81,7 @@ nav {
   transition: 0.9s all;
 }
 .section-image__border {
-  border: 1px solid black;
+  border: .1rem solid black;
   height: 16rem;
   width: 39rem;
   margin: 0 auto;
@@ -115,7 +115,7 @@ nav {
   margin-right: 0;
 }*/
 
-.section-deckription__title {
+.section-description__title {
   text-align: center;
   font-size: 9.6rem;
   color: black;
@@ -123,16 +123,25 @@ nav {
   text-transform: uppercase;
   font-family: Philosofer-Regular;
   font-weight: 400;
+  margin-bottom: 2rem;
 }
 
-.section-deckription__text {
-  font-size: 1.8rem;
+.section-description__text-box {
+  width: 90%;
   text-align: center;
-  margin-right: 50rem;
-  margin-left: 50rem;
-  margin-bottom: 2rem;
-  font-family: Roboto, sans-serif;
+  margin: 0 auto;
 }
+
+.section-description__text {
+  font-size: 1.8rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+.section-description {
+  margin-bottom: 2rem;
+}
+
 
 .red {
   color: #f15b40;
