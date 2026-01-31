@@ -25,9 +25,6 @@
   .block-adaptive {
     display: block;
   }
-  .section-description__icon-box {
-    height: 18rem;
-  }
 }
 
 @media (max-width: 620px) {
